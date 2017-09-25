@@ -1,0 +1,46 @@
+-------------------------------------------------- ------------------------------ -------------------- -----
+| KNOWLEDGE BASE
+-------------------------------------------------- ------------------------------ -------------------- -----
+
+Attributes:
+Pliva * = yes no
+OstriZubi * = has | no
+Striped * = yes | no
+VoliSeMaziti * = yes | no
+ImaRogove * = yes | no
+Udomacena * = yes | no
+ToplaKrv * = has | no
+Kopita * = has | no
+InterlacedStop * = yes | no
+JedeMeso * = yes | no
+Kandze * = yes no
+Longcut * = yes | no
+Rod Animals * = bird | mammal
+LijezeJaja * = yes no
+Point * = yes | no
+Nutrition * = carnivore | herbivorous
+Animal * = leopard | tiger | kucna_macka | zirafa | noj | zebra | bull | pingvi n | albatros | duck
+Size * = small | medium | big
+Feather * = has | no
+Flights * = yes no
+Species Animals * = cat kopitar
+
+Rules:
+1) IF ToplaKrv = has THEN Rod Animals = mammal
+2) IF Perje = has & LijezeJaja = yes THEN RodZivotinje = bird
+3) IF JedeMeso = yes & Rod Animals = Mammals THEN Food = Carnivorous
+4) IF OstriZubi = has & Food = carnival & Kandze = yes THEN Species = m acka
+5) IF Nutrition = Carnivore & Copita = has & Rod Animals = Mammals THEN Species Life In = Equine
+6) IF Species Animals = cat & Spot = yes & Size = Large THEN Animal = leopard
+7) IF Species Animals = cat & Size = Large & Striped = yes THEN Animal = tiger
+8) IF Species Animals = cat & Udomacena = yes & VoliSeMaziti = yes & Size = m ala THEN Animal = kucna_macka
+9) IF Species Animals = Equestrian & Striped = yes THEN Animal = Zebra
+10) IF Species Animals = Equestrian & Longfoot = Yes & Point = yes THEN Animal a = Zirafa
+11) IF Species Animals = Equestrian & ImaRogove = yes THEN Animal = bull
+12) IF Flights = no & Rod Animals = Bird & Pliva = no THEN Animal = ost
+13) IF Flights = no & Rod Animals = bird & Pliva = yes THEN Animal = penguin
+14) IF Flights = yes & Rod Animals = Bird & InterlacedStop = yes THEN Zivotinj a = albatros
+15) IF Flights = yes & Rod Animals = Bird & Interlaced Stop = yes THEN Animal a = duck
+
+Enter the hypothesis:
+Too little data

@@ -1,0 +1,25 @@
+1533/5000
+Vertalen uit het: Bosnisch
+Shape = Extract | round | rounded
+Surface = smooth | rough
+Color = green zuta | red | blue | orange
+Broj_sjemenki => 1 | = 1
+Types of Seats = Multiple bone
+Diameter => 10 | <10
+Species_color = trap | tree
+Voce = banana | watermelon | melon | canal | apple | apricot | visnja | peach | plum orange
+--------------------------
+IF Shape = Extract & Color = Green | Yellow THEN Voce = Banana
+IF Shape = Rounded | Rounded & Diameter => 10 THEN Character Spec = Loose
+IF Shape = Round & Diameter = <10 THEN Character Spec = tree
+IF Number_simples = 1 THEN Session type = bone
+IF Broj_sjemenki => 1 THEN Range = multiple
+IF Species_Column = Loose & Color = Green THEN Voce = Watermelon
+IF Species_color = Loose & Surface = Smooth & Color = Yellow THEN Voce = Melon
+IF Species_color = Loose & Surface = rough & Color = yellow-brown THEN Voce = Cantaloupe
+IF Species type = tree & Color = orange & Sands = bone THEN Voce = apricot
+IF Species type = Tree & Color = Orange & Sons = Multiple THEN Voce = Orange
+IF Species type = tree & Color = red & Sons = bone THEN Voice = height
+IF Species Species = Tree & Color = Orange & Seedlings = Bone THEN Voce = Peach
+IF Species_color = tree & Color = yellow | green | red & Sands = multiple THEN Voce = apple
+IF Species type = Tree & Color = Blue & Sands = Bone THEN Voce = Plum
